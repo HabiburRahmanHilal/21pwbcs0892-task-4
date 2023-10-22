@@ -1,0 +1,20 @@
+
+
+.text-primary{
+    color: brown !important;
+}
+
+.navbar-brand img{
+    width: 80px;
+}
+.header{
+    box-shadow: 0 0 10px #666;
+}
+
+.navspace{
+
+    height: 76px;
+}
+.contact{
+    background-color: #666;
+}

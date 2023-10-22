@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap demo</title>
+   
+  </head>
+  <body>
+    <header class="fixed-top ">
+        <nav class="navbar navbar-expand-lg bg-light bg-white container">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="images/logo.png "  alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="menu.html">menu</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        information
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="personal.html">personal</a></li>
+                      <li><a class="dropdown-item" href="#">website</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                  
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contact.html">contact</a>
+                  </li>
+                </ul>
+             
+              </div>
+            </div>
+          </nav>
+        
+    </header>
+    <div class="contact"></div>
+    <center>
+      <h1>contact</h1>
+      <form action="/submit" method="post">
+          <label for="name">Full Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone" required><br><br>
+          <label for="comments"> Comments:</label><br>
+          <textarea id="comments" name="comments" rows="4" 
+          cols="50"></textarea><br><br>
+          <label for="subscribe">Subscribe to Newsletter:</label>
+          <input type="checkbox" id="subscribe" name="subscribe" 
+          value="yes"><br><br>
+          <button type="submit" name="submit" id="submitButton">Submit</button>
+          </form>
+    </center>
+  
+ 
+ 
+
+   
+
+     
+    
+
+   
+ <script src="bootstrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
